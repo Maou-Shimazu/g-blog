@@ -1,28 +1,54 @@
-# Gatsby
+<p align="center">
+  <a href="https://www.gatsbyjs.com/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter-ts">
+    <img alt="Gatsby" src="https://www.gatsbyjs.com/Gatsby-Monogram.svg" width="60" />
+  </a>
+</p>
+<h1 align="center">
+  Gatsby minimal TypeScript starter
+</h1>
 
-This directory is a brief example of a [Gatsby](https://www.gatsbyjs.org/) app with [Serverless Functions](https://vercel.com/docs/concepts/functions/serverless-functions) that can be deployed to Vercel with zero configuration.
+## 🚀 Quick start
 
-## Deploy Your Own
+1.  **Create a Gatsby site.**
 
-Deploy your own Gatsby project, along with Serverless Functions, with Vercel.
+    Use the Gatsby CLI to create a new site, specifying the minimal TypeScript starter.
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/vercel/vercel/tree/main/examples/gatsby&template=gatsby)
+    ```shell
+    # create a new Gatsby site using the minimal TypeScript starter
+    npm init gatsby
+    ```
 
-_Live Example: https://gatsby.vercel.app_
+2.  **Start developing.**
 
-## Running Locally
+    Navigate into your new site’s directory and start it up.
 
-> **Note:** [Gatsby Functions](https://www.gatsbyjs.com/docs/reference/functions/getting-started/) are not yet supported on Vercel, which is why the API Route is in `/api` instead of `/src/api`.
+    ```shell
+    cd my-gatsby-site/
+    npm run develop
+    ```
 
-To run your Gatsby application and your API Route, you'll need to use the [Vercel CLI](https://vercel.com/cli):
+3.  **Open the code and start customizing!**
 
-```shell
-$ npm i -g vercel
-$ vercel
-```
+    Your site is now running at http://localhost:8000!
 
-Alternatively, you can remove the API and just use Gatsby:
+    Edit `src/pages/index.tsx` to see your site update in real-time!
 
-```shell
-$ yarn develop
-```
+4.  **Learn more**
+
+    - [Documentation](https://www.gatsbyjs.com/docs/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter-ts)
+
+    - [Tutorials](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter-ts)
+
+    - [Guides](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter-ts)
+
+    - [API Reference](https://www.gatsbyjs.com/docs/api-reference/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter-ts)
+
+    - [Plugin Library](https://www.gatsbyjs.com/plugins?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter-ts)
+
+    - [Cheat Sheet](https://www.gatsbyjs.com/docs/cheat-sheet/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter-ts)
+
+## 🚀 Quick start (Gatsby Cloud)
+
+Deploy this starter with one click on [Gatsby Cloud](https://www.gatsbyjs.com/cloud/):
+
+[<img src="https://www.gatsbyjs.com/deploynow.svg" alt="Deploy to Gatsby Cloud">](https://www.gatsbyjs.com/dashboard/deploynow?url=https://github.com/gatsbyjs/gatsby-starter-minimal-ts)
